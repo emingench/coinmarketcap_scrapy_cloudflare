@@ -4,12 +4,14 @@ Automat==20.2.0
 backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
 certifi==2020.12.5
 cffi==1.14.5
+cfscrape==2.1.1
+chardet==4.0.0
 constantly==15.1.0
 cryptography==3.4.6
 cssselect==1.1.0
 decorator @ file:///home/ktietz/src/ci/decorator_1611930055503/work
 hyperlink==21.0.0
-idna==3.1
+idna==2.10
 incremental==17.5.0
 ipython @ file:///opt/concourse/worker/volumes/live/449dee2b-18f2-43ab-7642-175cc393858f/volume/ipython_1612212910853/work
 ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
@@ -29,7 +31,9 @@ Pygments @ file:///tmp/build/80754af9/pygments_1613849567472/work
 PyHamcrest==2.0.2
 pyOpenSSL==20.0.1
 queuelib==1.5.0
+requests==2.25.1
 Scrapy==1.6.0
+scrapy-cloudflare-middleware==0.0.1
 scrapy-selenium==0.0.7
 scrapy-splash==0.7.2
 selenium==3.141.0

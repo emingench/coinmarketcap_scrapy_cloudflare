@@ -16,7 +16,7 @@ NEWSPIDER_MODULE = 'coinmarketcap_scrapy_cloudflare.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'coinmarketcap_scrapy_cloudflare (+http://www.yourdomain.com)'
+USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -88,3 +88,11 @@ ROBOTSTXT_OBEY = True
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+
+DOWNLOADER_MIDDLEWARES = {
+    # The priority of 560 is important, because we want this middleware to kick in just before the scrapy built-in `RetryMiddleware`.
+    'scrapy_cloudflare_middleware.middlewares.CloudFlareMiddleware': 560
+}
+
+DUPEFILTER_CLASS = "scrapy.dupefilters.BaseDupeFilter"
