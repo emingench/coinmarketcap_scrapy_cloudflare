@@ -1,0 +1,43 @@
+appnope @ file:///opt/concourse/worker/volumes/live/5f13e5b3-5355-4541-5fc3-f08850c73cf9/volume/appnope_1606859448618/work
+attrs==20.3.0
+Automat==20.2.0
+backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+certifi==2020.12.5
+cffi==1.14.5
+constantly==15.1.0
+cryptography==3.4.6
+cssselect==1.1.0
+decorator @ file:///home/ktietz/src/ci/decorator_1611930055503/work
+hyperlink==21.0.0
+idna==3.1
+incremental==17.5.0
+ipython @ file:///opt/concourse/worker/volumes/live/449dee2b-18f2-43ab-7642-175cc393858f/volume/ipython_1612212910853/work
+ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
+jedi==0.17.0
+lxml==4.6.2
+parsel==1.6.0
+parso @ file:///tmp/build/80754af9/parso_1607623074025/work
+pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1602688806899/work
+ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser==2.20
+PyDispatcher==2.0.5
+Pygments @ file:///tmp/build/80754af9/pygments_1613849567472/work
+PyHamcrest==2.0.2
+pyOpenSSL==20.0.1
+queuelib==1.5.0
+Scrapy==1.6.0
+scrapy-selenium==0.0.7
+scrapy-splash==0.7.2
+selenium==3.141.0
+service-identity==18.1.0
+six==1.15.0
+traitlets @ file:///home/ktietz/src/ci/traitlets_1611929699868/work
+Twisted==20.3.0
+urllib3==1.26.3
+w3lib==1.22.0
+wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
+zope.interface==5.2.0
